@@ -1,6 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License][cc-by].
+This repository contains educational materials developed or translated and adapted on request and/or with the support of the [RISC-V Alliance](https://riscv-alliance.ru/). The submitted materials usage is allowed under a [Creative Commons Attribution 4.0 International License][cc-by].
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
