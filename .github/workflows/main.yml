@@ -33,7 +33,7 @@ jobs:
           }
         result-encoding: string
     - name: Close PR
-      run: gh -R "${GITHUB_REPOSITORY}" pr close --comment "$( curl -qL https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/.github/PULL_REQUEST_TEMPLATE.md || echo Repo is read-only, see README.md for details )" '${{steps.get_issue_number.outputs.result}}'
+      run: gh -R "${GITHUB_REPOSITORY}" pr close --comment "$( curl -fqL https://raw.githubusercontent.com/$GITHUB_REPOSITORY/main/.github/PULL_REQUEST_TEMPLATE.md || echo Repo is read-only, see README.md for details )" '${{steps.get_issue_number.outputs.result}}'
       env:
         GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
